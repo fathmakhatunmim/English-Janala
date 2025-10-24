@@ -45,13 +45,6 @@ const displayLevelWord=(words) =>{
 };
 
 
-
-
-
-
-
-
-
 const displayLesson = (lessons) => {
     // 1.get the container & empty
     const levelContainer = document.getElementById("level-container");   
