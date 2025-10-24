@@ -25,10 +25,10 @@ const displayLevelWord=(words) =>{
         console.log(word);
         const card = document.createElement("div");
          card.innerHTML = `<div class="bg-white  rounded-xl shadow-sm text-center py-10 px-5 space-y-4">
-        <h2 class="font-bold text-2xl">Eager</h2>
+        <h2 class="font-bold text-2xl">${word.word}</h2>
         <p class="font-semibold">Meaning /Pronounciation</p>
         <div class="text-xl font-medium font-bangla">
-             "আগ্রহী / ইগার"
+             "${word.meaning}/ ${word.pronunciation}"
         </div>
         <div class="flex justify-between items-center">
             <button class="btn bg-[#1A91FF10] hover:bg-[#188dfa80]"><i class="fa-solid fa-circle-info"></i></button>
