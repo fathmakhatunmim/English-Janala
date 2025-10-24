@@ -23,6 +23,10 @@ const displayLevelWord=(words) =>{
 
 
          if(words.length == 0){
+             wordContainer.innerHTML = `<div class="justify-between bg-sky-100 items-center text-center  col-span-full rounded-xl py-10 space-y-6 font-bangla">
+    <p class="text-xl font-medium text-gray-400">আপনি এখনো কোন Lesson Select করেন নি</p>
+    <h2 class="font-bold text-4xl ">নেক্সট Lesson এ যান</h2>
+</div>`;
             alert("no word detected");
             return;
          }
